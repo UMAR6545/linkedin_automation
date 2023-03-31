@@ -14,7 +14,7 @@ You can install Node.js from the official website: https://nodejs.org/. Once Nod
 ## Usage
 To run the test, first clone this repository to your local machine:
 
-`git clone https://github.com/your-username/linkedin-login-automation.git
+`git clone https://github.com/UMAR6545/linkedin-login-automation.git
 `
 
 Then, navigate to the project directory and open Cypress:
