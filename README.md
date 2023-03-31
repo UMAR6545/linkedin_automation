@@ -35,4 +35,5 @@ To customize this project for your own use case, you'll need to modify the Linke
 
 ## Contributing
 
-If you find any issues with this project or would like to contribute, please feel free to open an issue or pull request on GitHub: https://github.com/your-username/linkedin-login-automation
+If you find any issues with this project or would like to contribute, please feel free to open an issue or pull request on GitHub:
+https://github.com/UMAR6545/linkedin_automation
