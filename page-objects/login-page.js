@@ -1,18 +1,28 @@
+
+const userName = '#username'
+const pass = '#password'
+const submitButton = 'button[type="submit"]'
+
+
 class LoginPage {
     visit() {
         cy.visit('https://www.linkedin.com/login')
     }
 
     fillEmail(email) {
-        cy.get('#username').type(email)
+        cy.get(userName).type(email)
     }
 
     fillPassword(password) {
-        cy.get('#password').type(password)
+        cy.get(pass).type(password)
     }
 
     submit() {
-        cy.get('button[type="submit"]').click()
+        cy.get(submitButton).click()
+    }
+
+    verifyHomePageIsLoaded() {
+        return cy.url().should('include', '/feed')
     }
 }
 
